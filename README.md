@@ -1,9 +1,9 @@
-#Purpose
+# Purpose
 
 This script is an example usage of how to pull Google Meet activity from the GSuite Admin Audit logs.
 Further implementation can be done using the provided functions.
 
-#Installation
+# Installation
 
 Go to console.developers.google.com and make a project with access to the admin API and register an "other"
 typed Oauth API key. Or go to https://developers.google.com/admin-sdk/reports/v1/quickstart/python and just click on
@@ -11,7 +11,7 @@ typed Oauth API key. Or go to https://developers.google.com/admin-sdk/reports/v1
 
 #### Then do pip install -r requirements.txt
 
-#Usage
+# Usage
 Example usage is in the "if name == main" section at the bottom of report.py
 
 service = get_reports_service() is used to initialize a Resource object that we can use for all our API queries.
