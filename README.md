@@ -9,6 +9,8 @@ Go to console.developers.google.com and make a project with access to the admin 
 typed Oauth API key. Or go to https://developers.google.com/admin-sdk/reports/v1/quickstart/python and just click on
 "enable reports API" in step one of their quickstart guide if you aren't used to developing stuff with their API.
 
+#### Then do pip install -r requirements.txt
+
 #Usage
 Example usage is in the "if name == main" section at the bottom of report.py
 
